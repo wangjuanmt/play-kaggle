@@ -6,12 +6,13 @@ One of the reasons that the shipwreck led to such loss of life was that there we
 
 In this challenge, we ask you to complete the analysis of what sorts of people were likely to survive. In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
 
-This is a classification issue. The output 1 is for survive, 0 is for not.
+This is a binary classification issue. The output 1 is for survive, 0 is for not.
 
 ### Data Set
 The data has been split into two groups:
 * training set (train.csv)
 * test set (test.csv)
+
 The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. Your model will be based on “features” like passengers’ gender and class. You can also use feature engineering to create new features.
 
 The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
